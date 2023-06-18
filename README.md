@@ -45,7 +45,7 @@ Create two virtual machines (DC-1 & Client-1). The image setting for DC-1 is <b>
 <img src="https://i.imgur.com/ruxVM8E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Client-1 sent a ping command to mainframe but no such host file exists within the DNS lookup (Domain Name System). We'll need to create a host file. Switching back to DC-1, open the Server Manager window go to <b><i>Tools</i></b> --> <b><i>DNS Manager</i></b> --> select DC-1 --> Domain list of A records (host name to doamin mapping). Right-click then select <b><i>New Host</i></b> --> type in <b><i>mainframe</i></b> --> set IP to DC-1 --> <b>Add Host</b>. Client-1 can now ping to mainframe.
 </p>
 <br />
 <p>
@@ -56,6 +56,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/IMt84Mr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ To allow file shares, select the folder read access – right-click -go to properties – sharing – hit share
+
+Type in domain user hit add – share
+
+Now the file is shared. 
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
