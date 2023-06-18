@@ -7,7 +7,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-<h2>Environments and Technologies Used</h2>
+<br /><h2>Environments & Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
@@ -17,7 +17,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
