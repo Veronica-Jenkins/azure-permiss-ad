@@ -3,7 +3,7 @@
 </p>
 
 <h1>Configuring Network File Permissions with Active Directory</h1>
-in this tutorial we'll dive into the on-premises Active Directory within Azure Virtual Machines.<br />
+In this tutorial we'll dive into the on-premises Active Directory within Azure Virtual Machines.<br />
 
 
 
