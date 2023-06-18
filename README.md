@@ -30,7 +30,7 @@ In this tutorial we'll dive into the on-premises Active Directory within Azure V
 <img src="https://i.imgur.com/7v2iKcm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create two virtual machines (DC-1 & Client-1). The image setting for DC-1 is <b>Windows Server 2022</b>. Login to DC-1 - from the Server Manager window, select <b><i>Add Roles & Features</i></b> - select <b><i>Active Directory Domain Services</i></b>. A pop-up will appear click on <b><i>Promote this server to a domain controller</i></b>. This will complete the Active Directory install and turn the server into a domain controller. When prompted, make sure to add a new forest and create a root domain name. Now that Active Directory is installed, we need to restart. Restarting may disconnect the virtal machine - if this happens, just login again to DC-1 to reconnect. Active Directory has created default user and security groups.
 </p>
 <br />
 <p>
