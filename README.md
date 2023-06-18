@@ -30,7 +30,7 @@ In this tutorial we'll dive into the on-premises Active Directory within Azure V
 <img src="https://i.imgur.com/7v2iKcm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create two virtual machines (DC-1 & Client-1). The image setting for DC-1 is <b>Windows Server 2022</b>. Login to DC-1 - from the Server Manager window, select <b><i>Add Roles & Features</i></b> - select <b><i>Active Directory Domain Services</i></b>. A pop-up will appear click on <b><i>Promote this server to a domain controller</i></b>. This will complete the Active Directory install and turn the server into a domain controller. When prompted, make sure to add a new forest and create a root domain name. Now that Active Directory is installed, we need to restart. Restarting may disconnect the virtal machine - if this happens, just login again to DC-1 to reconnect. Active Directory has created default user and security groups.
+Create two virtual machines (DC-1 & Client-1). The image setting for DC-1 is <b>Windows Server 2022</b>. Login to DC-1 - from the Server Manager window, select <b><i>Add Roles & Features</i></b> - select <b><i>Active Directory Domain Services</i></b>. A pop-up will appear click on <b><i>Promote this server to a domain controller</i></b>. This will complete the Active Directory installation and turn the server into a domain controller. When prompted, make sure to add a new forest and create a root domain name. Now that Active Directory is installed, we need to restart. Restarting may disconnect the virtual machine - if this happens, just login again to DC-1 to reconnect. Active Directory has created default user and security groups.
 </p>
 <br />
 <p>
@@ -45,7 +45,7 @@ Create two virtual machines (DC-1 & Client-1). The image setting for DC-1 is <b>
 <img src="https://i.imgur.com/ruxVM8E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Client-1 sent a ping command to mainframe but no such host file exists within the DNS lookup (Domain Name System). We'll need to create a host file. Switching back to DC-1, open the Server Manager window go to <b><i>Tools</i></b> --> <b><i>DNS Manager</i></b> --> select DC-1 --> Domain list of A records (host name to doamin mapping). Right-click then select <b><i>New Host</i></b> --> type in <b><i>mainframe</i></b> --> set IP to DC-1 --> <b>Add Host</b>. Client-1 can now ping to mainframe.
+Client-1 sent a ping command to mainframe but no such host file exists within the DNS lookup (Domain Name System). We'll need to create a host file. Switching back to DC-1, open the Server Manager window go to <b><i>Tools</i></b> --> <b><i>DNS Manager</i></b> --> select DC-1 --> Domain list of A records (host name to domain mapping). Right-click then select <b><i>New Host</i></b> --> type in <b><i>mainframe</i></b> --> set IP to DC-1 --> <b>Add Host</b>. Client-1 can now ping to mainframe.
 </p>
 <br />
 <p>
