@@ -19,16 +19,10 @@ In this tutorial we'll dive into the on-premises Active Directory within Azure V
 - Windows Server 2022
 - Windows 10 (22H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+<br /><h2>Learning About Active Directory</h2>
 
-<h2>Deployment and Configuration Steps</h2>
-
-<p>
+<br /><p>
 <img src="https://i.imgur.com/xoAWKZ0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
