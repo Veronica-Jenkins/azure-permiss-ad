@@ -56,13 +56,7 @@ Client-1 sent a ping command to mainframe but no such host file exists within th
 <img src="https://i.imgur.com/IMt84Mr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- To allow file shares, select the folder read access – right-click -go to properties – sharing – hit share
-
-Type in domain user hit add – share
-
-Now the file is shared. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To allow file shares, select the Read Access folder. Right-click to go to <b><i>Properties</i></b> --> <b><i>Sharing</i></b> click on <b>Share</b>. Next type in <b><i>Domain Users</i></b> --> <b><i>Add</i></b> --> <b>Share</b>. Now the file is shared.  
 </p>
 <br />
 
